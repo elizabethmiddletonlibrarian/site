@@ -33,8 +33,7 @@ Select experience
 
 Presentations
 ======
-  Lovas, N. (moderator), Moore, K., **Middleton, E. S.**, and Spanier, B., (2025) "We’re Not in Library School Anymore: Traversing the Path from Student to Early Career Librarian.” Panel presentation, NCLA Annual Meeting.
-  
+Lovas, N. (moderator), Moore, K., **Middleton, E. S.**, and Spanier, B., (2025) "We’re Not in Library School Anymore: Traversing the Path from Student to Early Career Librarian.” Panel presentation, NCLA Annual Meeting.
 **Sanford, E.**, and Menzel, E., (2024) “Electronic Resource Accessibility Evaluation for Public Services,” In-Person Poster Session, The Charleston Conference.   
 **Sanford, E.**, (2024) “Information Empowerment: Employing the Common Good Ethical Lens to Articulate the Contributions of Library Instruction to Social Good,” Symposium on Information for Social Good & Scholars Showcase.  
 **Sanford, E.** (2023) “’The Popery of Government’: The Entanglement of Transatlantic Anticlericalism and Identity Formation in the Chesapeake Colonies,” South Carolina Historical Society Annual Meeting.  
