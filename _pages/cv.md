@@ -11,53 +11,36 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* M.S. in Library Science, University of North Carolina at Chapel Hill, 2025
+* M.A. in Teaching, Furman University, 2023
+* B.A. in History _summa cum laude_, 2022
 
-Work experience
+Select experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Instruction and Research Services Librarian (2025 - present)
+  * Furman University Libraries
+  * Liaison areas: Business and Accounting, Economics, Politics and International Affairs, Mathematics, Data Analytics, Advocacy and Social Policy, Innovation and Leadership
+ 
+* Research and Instruction Librarian
+  * Anderson University    
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Teaching and Learning Intern (2024, paid 15hr/week)
+  * Duke University Libraries
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Public Services Intern (2023 - 2024, paid 20hr/week)
+  * Duke Unviersity School of Law Goodson Law Library
   
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
 
-Publications
+Presentations
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  Lovas, N. (moderator), Moore, K., **Middleton, E. S.**, and Spanier, B., (2025) "We’re Not in Library School Anymore: Traversing the Path from Student to Early Career Librarian.” Panel presentation, NCLA Annual Meeting.
   
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+**Sanford, E.**, and Menzel, E., (2024) “Electronic Resource Accessibility Evaluation for Public Services,” In-Person Poster Session, The Charleston Conference.   
+**Sanford, E.**, (2024) “Information Empowerment: Employing the Common Good Ethical Lens to Articulate the Contributions of Library Instruction to Social Good,” Symposium on Information for Social Good & Scholars Showcase.  
+**Sanford, E.** (2023) “’The Popery of Government’: The Entanglement of Transatlantic Anticlericalism and Identity Formation in the Chesapeake Colonies,” South Carolina Historical Society Annual Meeting.  
+**Sanford, E. ** (2023) “The American Reformation: Anti-Popery and the Church from Jamestown to Revolution,” The Virginia Forum.  
+
+
   
 Service and leadership
 ======
