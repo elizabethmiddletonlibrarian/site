@@ -1,6 +1,6 @@
 ---
 title: "About"
-permalink: /about/
+permalink: /site/
 ---
 
 Hi, I'm Elizabeth. I'm a librarian interested in document theory, citation studies, digital humanities methods, and the early modern British Atlantic.
