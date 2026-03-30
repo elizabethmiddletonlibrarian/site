@@ -24,6 +24,7 @@ When I downloaded, I was prompted to install the style in Zotero. However, if yo
 **Zotero**
 
 Go to "Preferences...", "Cite", "Styles", click the "+" button and select the downloaded style.
+
 **Paperpile**
 
 Go to "Settings > Citation Styles > Custom styles", click the "Upload CSL file" button and select the downloaded CSL file. The newly added citation style will be listed in the "Custom styles" section on successful upload.
