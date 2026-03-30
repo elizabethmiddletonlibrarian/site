@@ -1,5 +1,4 @@
 ---
----
 permalink: /
 title: "About"
 author_profile: true
@@ -7,8 +6,6 @@ redirect_from:
   - /about/
   - /about.html
 ---
----
-
 Hi, I'm Elizabeth. I'm a librarian interested in document theory, citation studies, digital humanities methods, and the early modern British Atlantic.
 
 I work on projects related to:
