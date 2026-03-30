@@ -42,6 +42,9 @@ Presentations
 
 
   
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+Service 
+====== 
+* Invited speaker on moderated panel about careers in librarianship, Career Services and Mary Helen Cochran Library, Sweet Briar College, February 2026
+* Brain Trust Member, Faculty Development Center, Furman University, September 2025 – Present
+* Business Reference And Services Section (BRASS) Education Committee Volunteer, Reference and User Services Association, May 2025 - Present 
+
