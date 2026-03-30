@@ -13,7 +13,7 @@ Education
 ======
 * M.S. in Library Science, University of North Carolina at Chapel Hill, 2025
 * M.A. in Teaching, Furman University, 2023
-* B.A. in History _summa cum laude_, 2022
+* B.A. in History _summa cum laude_, Sweet Briar College, 2022
 
 Select experience
 ======
