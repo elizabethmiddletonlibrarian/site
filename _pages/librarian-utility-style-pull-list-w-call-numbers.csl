@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" default-locale="en-GB">
+  <!-- This style was edited with the Visual CSL Editor (https://editor.citationstyles.org/codeEditor/) -->
+  <info>
+    <title>Librarian Utility Style - Pull List w/ Call Numbers</title>
+    <id>http://www.zotero.org/styles/librarian-utility-style-pull-list-w-call-numbers</id>
+    <link href="http://www.zotero.org/styles/librarian-utility-style-pull-list-w-call-numbers" rel="self"/>
+    <author>
+      <name>Your Name</name>
+    </author>
+    <category citation-format="author-date"/>
+    <category field="generic-base"/>
+    <updated>2026-03-27T14:03:21+00:00</updated>
+    <rights license="http://creativecommons.org/licenses/by-sa/3.0/">
+      This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License
+    </rights>
+  </info>
+  <macro name="title">
+    <text variable="title"/>
+  </macro>
+  <macro name="author">
+    <names variable="author ">
+      <name name-as-sort-order="all" delimiter=", " initialize-with="."/>
+      <label strip-periods="false" prefix=", "/>
+      <substitute>
+        <names variable="editor"/>
+        <names variable="translator"/>
+        <text variable="title"/>
+      </substitute>
+    </names>
+  </macro>
+  <macro name="issued">
+    <choose>
+      <if variable="issued">
+        <date variable="issued">
+          <date-part name="year"/>
+        </date>
+      </if>
+      <else>
+        <text term="no date"/>
+      </else>
+    </choose>
+  </macro>
+  <macro name="extra">
+    <text variable="note" suffix=". "/>
+  </macro>
+  <macro name="call-number">
+    <text variable="call-number"/>
+  </macro>
+  <macro name="extra-sort">
+    <choose>
+      <if variable="note">
+        <text value="1"/>
+      </if>
+      <else>
+        <text value="2"/>
+      </else>
+    </choose>
+  </macro>
+  <citation>
+    <layout>
+      <text macro="author"/>
+      <text macro="issued" prefix=" (" suffix=")"/>
+    </layout>
+  </citation>
+  <bibliography hanging-indent="true">
+    <sort>
+      <key macro="extra-sort"/>
+      <key macro="call-number"/>
+    </sort>
+    <layout suffix=".">
+      <text macro="extra"/>
+      <text macro="call-number"/>
+      <text macro="title" font-style="italic" prefix=". "/>
+      <text macro="author" prefix=". "/>
+      <text macro="issued" prefix=". "/>
+    </layout>
+  </bibliography>
+</style>
