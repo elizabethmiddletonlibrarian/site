@@ -21,7 +21,7 @@ Select experience
   * Furman University Libraries
   * Liaison areas: Business and Accounting, Economics, Politics and International Affairs, Mathematics, Data Analytics, Advocacy and Social Policy, Innovation and Leadership
  
-* Research and Instruction Librarian
+* Research and Instruction Librarian (2025)
   * Anderson University    
 
 * Teaching and Learning Intern (2024, paid 15hr/week)
@@ -38,7 +38,7 @@ Presentations
 **Sanford, E.**, and Menzel, E., (2024) “Electronic Resource Accessibility Evaluation for Public Services,” In-Person Poster Session, The Charleston Conference.   
 **Sanford, E.**, (2024) “Information Empowerment: Employing the Common Good Ethical Lens to Articulate the Contributions of Library Instruction to Social Good,” Symposium on Information for Social Good & Scholars Showcase.  
 **Sanford, E.** (2023) “’The Popery of Government’: The Entanglement of Transatlantic Anticlericalism and Identity Formation in the Chesapeake Colonies,” South Carolina Historical Society Annual Meeting.  
-**Sanford, E. ** (2023) “The American Reformation: Anti-Popery and the Church from Jamestown to Revolution,” The Virginia Forum.  
+**Sanford, E.** (2023) “The American Reformation: Anti-Popery and the Church from Jamestown to Revolution,” The Virginia Forum.  
 
 
   
