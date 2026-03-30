@@ -32,12 +32,14 @@ Go to "Settings > Citation Styles > Custom styles", click the "Upload CSL file" 
 
 You can use [Mendeley's own version of this CSL Editor](http://csl.mendeley.com), where Mendeley will host your style, install it directly to your computer and help you share the style with other CSL users.
 
-Once you do that you will be able to export a bibliography in Librarian Utility Style - Pull List w/ Call Numbers.
-Example:
+Once you do that you will be able to export a bibliography in Librarian Utility Style - Pull List w/ Call Numbers or Librarian Utility Style - Purchase Requests.
+
+_Example:_
+
 Z721 .C22 2013. _The library: a world history._ Campbell, J.W.P. 2013.
 
 User note: When using Librarian Utility Style - Pull List w/ Call Numbers to save a book that is not in the general collection, add the name of the collection to the "Extra" metadata field. It will place the collection name before the call number and all items with something in the Extra field will be listed first. 
 
-Example:
+_Example:_
 
 JUV. PZ7.B9832 Pe 2011. _Penelope Popper, book doctor._ Buzzeo, T. 2011.
