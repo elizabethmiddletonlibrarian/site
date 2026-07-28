@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Revolutionary Pamphlet Citation Network</title>
+
+<script src="https://unpkg.com/cytoscape@3.26.0/dist/cytoscape.min.js"></script>
+
+<style>
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #eef6f9;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+    h2 {
+    text-align: center;
+    color: #333;
+}
+
+#cy {
+    width: 100%;
+    height: 800px;
+    border: 2px solid #e4e8ff;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.legend {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: white;
+    border: 1px solid #e4e8ff;
+}
+
+.legend-item {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.legend-color {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    vertical-align: middle;
+    border: 1px solid #333;
+}
+
+#tooltip {
+    position: absolute;
+    background-color: rgba(0,0,0,.85);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 13px;
+    pointer-events: none;
+    display: none;
+    max-width: 400px;
+    z-index: 9999;
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<h1>Revolutionary Pamphlets of the 18th Century British Atlantic</h1>
+    <h2> Citation Network</h2>
+
+
+<div class="legend" id="typeLegend">
+
+<div class="legend-item">
+Node shape: <strong>rectangle</strong> = Pamphlet, <strong>circle</strong> = Source
+</div>
+
+</div>
+
+<div class="legend" id="categoryLegend">
+<strong style="display:block; margin-bottom:8px;">Category</strong>
+</div>
+
+
+<div id="cy"></div>
+
+<div id="tooltip"></div>
+
+
+
+<script>
+async function loadNetwork() {
+    // 1. Fetch the data
+    const rawNodes = await fetch("nodes.json").then(res => res.json());
+    const rawEdges = await fetch("edges.json").then(res => res.json());
+
+    // 2. CLEAN THE DATA (Removes BOM from both nodes and edges)
+    const nodesData = rawNodes.map(node => {
+        const cleanNode = {};
+        Object.keys(node).forEach(key => {
+            const cleanKey = key.replace(/[^\x20-\x7E]/g, '').trim();
+            cleanNode[cleanKey] = node[key];
+        });
+        return cleanNode;
+    });
+
+    const edgesData = rawEdges.map(edge => {
+        const cleanEdge = {};
+        Object.keys(edge).forEach(key => {
+            const cleanKey = key.replace(/[^\x20-\x7E]/g, '').trim();
+            cleanEdge[cleanKey] = edge[key];
+        });
+        return cleanEdge;
+    });
+
+    const elements = [];
+
+    // 3. BUILD CATEGORY COLOR MAP
+    const colorPalette = ["#fecdc8", "#b6e2ff", "#c8f2c8", "#ffe6a7", "#dcc8ff", "#ffc8e8", "#c8fff2", "#f2d9b1", "#b1c9f2", "#e0b1f2"];
+    const categories = [...new Set(nodesData.map(node => node.Category).filter(cat => cat && cat.trim() !== ""))];
+    const categoryColorMap = {};
+    categories.forEach((cat, i) => {
+        categoryColorMap[cat] = colorPalette[i % colorPalette.length];
+    });
+
+    // 4. POPULATE CATEGORY LEGEND
+    const categoryLegendEl = document.getElementById("categoryLegend");
+    categoryLegendEl.innerHTML = '<strong style="display:block; margin-bottom:8px;">Category</strong>';
+    categories.forEach(cat => {
+        const item = document.createElement("div");
+        item.className = "legend-item";
+        item.innerHTML = `<span class="legend-color" style="background:${categoryColorMap[cat]}"></span>${cat}`;
+        categoryLegendEl.appendChild(item);
+    });
+
+    // 5. ADD NODES (Using CLEANED keys)
+    nodesData.forEach(node => {
+        elements.push({
+            data: {
+                id: node.ID,
+                label: node.Name,
+                type: node.Node_Type ? node.Node_Type.toLowerCase() : "source",
+                year: node["Publication Date"],
+                author_origin: node.Author_Location,
+                notes: node.Notes,
+                category: node.Category
+            }
+        });
+    });
+
+    // 6. ADD EDGES (Using CLEANED keys)
+    edgesData.forEach(edge => {
+        elements.push({
+            data: {
+                id: edge.Source + "-" + edge.Target,
+                source: edge.Source,
+                target: edge.Target,
+                weight: Number(edge.Weight_NumOfCite) || 1,
+                citation_method: edge.Citation_Method,
+                description: edge.Notes
+            }
+        });
+    });
+
+    // 7. INITIALIZE CYTOSCAPE (ONLY ONCE, INSIDE THE FUNCTION)
+    const cy = cytoscape({
+        container: document.getElementById("cy"),
+        elements: elements,
+        style: [
+            {
+                selector: "node",
+                style: {
+                    "label": "data(label)",
+                    "text-valign": "center",
+                    "text-halign": "center",
+                    "font-size": "10px",
+                    "text-wrap": "wrap",
+                    "text-max-width": "100px",
+                    "width": 120,
+                    "height": 120,
+                    "border-width": 2,
+                    "border-color": "#051551",
+                    "background-color": function(ele) {
+                        return categoryColorMap[ele.data("category")] || "#cccccc";
+                    }
+                }
+            },
+            {
+                selector: 'node[type="pamphlet"]',
+                style: { "shape": "rectangle" }
+            },
+            {
+                selector: 'node[type="source"]',
+                style: { "shape": "ellipse" }
+            },
+            {
+                selector: "edge",
+                style: {
+                    "width": "mapData(weight, 1, 28, 1, 10)",
+                    "line-color": "#999",
+                    "target-arrow-color": "#999",
+                    "target-arrow-shape": "triangle",
+                    "curve-style": "bezier"
+                }
+            },
+            {
+                selector: ".faded",
+                style: {
+                    "opacity": 0.15
+                }
+            },
+            {
+                selector: "edge.highlighted",
+                style: {
+                    "line-color": "#e63946",
+                    "target-arrow-color": "#e63946",
+                    "opacity": 1,
+                    "z-index": 999
+                }
+            },
+            {
+                selector: "node.highlighted",
+                style: {
+                    "border-color": "#e63946",
+                    "border-width": 4,
+                    "opacity": 1,
+                    "z-index": 999
+                }
+            }
+        ],
+        layout: {
+            name: "cose",
+            animate: true,
+            idealEdgeLength: 150,
+            nodeRepulsion: 8000
+        }
+    });
+
+    // 8. TOOLTIP FUNCTIONALITY
+    const tooltip = document.getElementById("tooltip");
+
+    cy.on("mouseover", "node", function(event) {
+        const node = event.target;
+        const data = node.data();
+
+        tooltip.innerHTML =
+            "<strong>" + data.label + "</strong><br>" +
+            (data.year ? "Year: " + data.year + "<br>" : "") +
+            (data.category ? "Category: " + data.category + "<br>" : "") +
+            (data.author_origin ? "Origin: " + data.author_origin : "");
+
+        tooltip.style.display = "block";
+
+        // Highlight connected edges and neighbor nodes
+        const connectedEdges = node.connectedEdges();
+        const neighborhood = connectedEdges.connectedNodes().union(node);
+
+        cy.elements().addClass("faded");
+        neighborhood.removeClass("faded");
+        connectedEdges.removeClass("faded");
+        connectedEdges.addClass("highlighted");
+        node.addClass("highlighted");
+    });
+
+    cy.on("mouseout", "node", function(event) {
+        cy.elements().removeClass("faded highlighted");
+    });
+
+    cy.on("mouseover", "edge", function(event) {
+        const data = event.target.data();
+
+        tooltip.innerHTML =
+            "<strong>Reference</strong><br>" +
+            (data.citation_method ? "Method: " + data.citation_method + "<br>" : "") +
+            (data.weight ? "Number of Mentions: " + data.weight + "<br>" : "") +
+            (data.description ? data.description : "");
+
+        tooltip.style.display = "block";
+    });
+
+    cy.on("mouseout", "node, edge", function() {
+        tooltip.style.display = "none";
+    });
+
+    cy.on("mousemove", function(event) {
+        tooltip.style.left = (event.originalEvent.pageX + 10) + "px";
+        tooltip.style.top = (event.originalEvent.pageY + 10) + "px";
+    });
+}
+
+loadNetwork();
+</script>
+
+
+
+</body>
+
+</html>
