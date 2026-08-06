@@ -35,7 +35,7 @@ Presentations
 ======
 **Middleton, E.S.** “Citational Practices and Construction of Authority: The Revolutionary Pamphlets of the Eighteenth Century British Atlantic.” Annual Meeting of the Document Academy. Forthcoming, 2026.
 
-**Middleton, E. S.** “Transforming Zotero into a Pull List Generator.” Virtual poster, PASCAL Member Conference. Forthcoming, 2026.
+**Middleton, E. S.** “Transforming Zotero into a Pull List Generator.” Virtual poster, PASCAL Member Conference. 2026.
 
 Lovas, N. (moderator), Moore, K., **Middleton, E. S.**, and Spanier, B., (2025) "We’re Not in Library School Anymore: Traversing the Path from Student to Early Career Librarian.” Panel presentation, NCLA Annual Meeting.
 
@@ -53,5 +53,5 @@ Service
 ====== 
 * Invited speaker on moderated panel about careers in librarianship, Career Services and Mary Helen Cochran Library, Sweet Briar College, February 2026
 * Brain Trust Member, Faculty Development Center, Furman University, September 2025 – Present
-* Business Reference And Services Section (BRASS) Education Committee Volunteer, Reference and User Services Association, May 2025 - Present 
+
 
