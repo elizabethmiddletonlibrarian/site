@@ -1,0 +1,926 @@
+[
+    {
+        "\u00ef\u00bb\u00bfSource":"P004",
+        "Target":"S025",
+        "Citation_Method":"direct quote, epigraph",
+        "Weight_NumOfCite":"1",
+        "Notes":""
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P004",
+        "Target":"S026",
+        "Citation_Method":"footnote (asterisk)",
+        "Weight_NumOfCite":"1",
+        "Notes":""
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P004",
+        "Target":"S027",
+        "Citation_Method":"footnote (asterisk)",
+        "Weight_NumOfCite":"1",
+        "Notes":""
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P004",
+        "Target":"S028",
+        "Citation_Method":"footnote (asterisk)",
+        "Weight_NumOfCite":"1",
+        "Notes":"Citation may contain a typo. It reads \"25. C. 2. c. 77,\" which does not exist. Meanwhile, 25. C. 2. c. 7 refers to on of the Navigation Acts (it is listed with several other Navigation Acts)."
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P004",
+        "Target":"S029",
+        "Citation_Method":"footnote (asterisk)",
+        "Weight_NumOfCite":"1",
+        "Notes":"Cited as 8. W. M. c. 22, though Mary had died at the time of the Acts' passage and the correct citation would be 8. W. 3. c. 22 "
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P004",
+        "Target":"S030",
+        "Citation_Method":"footnote (asterisk)",
+        "Weight_NumOfCite":"1",
+        "Notes":"Incomplete citation, possibly referring to the Wool Act of 1699, the Piracy Act of 1698, or the Newfoundland act of 1699 (otherwise unspecified collection of statutes passed in regnal year 11 Will 3)."
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P004",
+        "Target":"S031",
+        "Citation_Method":"footnote (asterisk)",
+        "Weight_NumOfCite":"1",
+        "Notes":"This act was cited as \"4 Anne\" but likely refers to the Naval Stores Act as it fits with the theme of mercantilist restrictions that the other references in this note share. "
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P004",
+        "Target":"S032",
+        "Citation_Method":"footnote (asterisk)",
+        "Weight_NumOfCite":"1",
+        "Notes":""
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P004",
+        "Target":"S033",
+        "Citation_Method":"footnote (asterisk), narrative citation",
+        "Weight_NumOfCite":"1",
+        "Notes":""
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P004",
+        "Target":"S034",
+        "Citation_Method":"footnote (asterisk), narrative citation",
+        "Weight_NumOfCite":"1",
+        "Notes":"The metadata in the citation is slightly out of order. "
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P004",
+        "Target":"S035",
+        "Citation_Method":"footnote (dagger), narrative citation",
+        "Weight_NumOfCite":"1",
+        "Notes":"Switching from asterisk to a dagget to differentiation between the two citations"
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P004",
+        "Target":"S036",
+        "Citation_Method":"footnote (asterisk), narrative citation",
+        "Weight_NumOfCite":"1",
+        "Notes":""
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P004",
+        "Target":"S037",
+        "Citation_Method":"footnote (dagger), narrative citation",
+        "Weight_NumOfCite":"1",
+        "Notes":""
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P004",
+        "Target":"S038",
+        "Citation_Method":"footnote (double dagger), narrative citation",
+        "Weight_NumOfCite":"1",
+        "Notes":""
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P004",
+        "Target":"S039",
+        "Citation_Method":"footnote (asterisk, dagger), narrative citation",
+        "Weight_NumOfCite":"2",
+        "Notes":"One of the legal citations is missing the chapter, but the title is included in the narrative"
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P004",
+        "Target":"S040",
+        "Citation_Method":"footnote (asterisk), narrative citation",
+        "Weight_NumOfCite":"1",
+        "Notes":"cited as 14 G. 3., but the full citation is 14 G. 3, c. 19; the title is included in the narrative"
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P004",
+        "Target":"S041",
+        "Citation_Method":"footnote (asterisk), narrative citation",
+        "Weight_NumOfCite":"1",
+        "Notes":""
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P004",
+        "Target":"S042",
+        "Citation_Method":"footnote (asterisk), narrative citation",
+        "Weight_NumOfCite":"1",
+        "Notes":""
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P004",
+        "Target":"S043",
+        "Citation_Method":"discursive footnote (asterisk)",
+        "Weight_NumOfCite":"1",
+        "Notes":"Discursive footnote describing how the colonies were distributed to crown favorites"
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P004",
+        "Target":"S044",
+        "Citation_Method":"discursive footnote (asterisk)",
+        "Weight_NumOfCite":"1",
+        "Notes":"Discursive footnote describing how the colonies were distributed to crown favorites"
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P004",
+        "Target":"S045",
+        "Citation_Method":"discursive footnote (asterisk)",
+        "Weight_NumOfCite":"1",
+        "Notes":"Discursive footnote describing how the colonies were distributed to crown favorites"
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P003",
+        "Target":"S015",
+        "Citation_Method":"quotation marks",
+        "Weight_NumOfCite":"1",
+        "Notes":"Attributed to Cicero, but a slight misquote that appears to have been copied from The Principles of Natural and Pilitical Law by Jean Jacques Burlamqui"
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P003",
+        "Target":"S016",
+        "Citation_Method":"narrative citation, direct quote with quotation marks",
+        "Weight_NumOfCite":"6",
+        "Notes":"At one point, Galloway states that he is citing Locke, \"because it has been often hereforto relied on by the American advocates, as worthly of credit.\" (p. 15)"
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P003",
+        "Target":"S017",
+        "Citation_Method":"narrative citation, direct quote with quotation marks",
+        "Weight_NumOfCite":"2",
+        "Notes":""
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P003",
+        "Target":"S018",
+        "Citation_Method":"narrative citation, direct quote with quotation marks",
+        "Weight_NumOfCite":"1",
+        "Notes":""
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P003",
+        "Target":"S019",
+        "Citation_Method":"narrative citation, direct quote with quotation marks",
+        "Weight_NumOfCite":"6",
+        "Notes":"Galloway was likely accessing the Continental Congrees documents from the volume published by the order of congress that included the  bill of rights, a list of grievances, occasional resolves, the Association, an address to the people of Great-Britain, and a memorial to the inhabitants of the British American colonies."
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P003",
+        "Target":"S020",
+        "Citation_Method":"narrative citation, direct quote with quotation marks",
+        "Weight_NumOfCite":"1",
+        "Notes":"This long quotation is preceeded by a statement that Galloway is corroborating his argument with \"the most respectable authorities.\" (p. 21)"
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P003",
+        "Target":"S021",
+        "Citation_Method":"narrative citation, direct quote with quotation marks",
+        "Weight_NumOfCite":"3",
+        "Notes":""
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P003",
+        "Target":"S022",
+        "Citation_Method":"narrative citation, direct quote with quotation marks",
+        "Weight_NumOfCite":"1",
+        "Notes":""
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P003",
+        "Target":"S023",
+        "Citation_Method":"narrative citation, direct quote with quotation marks",
+        "Weight_NumOfCite":"1",
+        "Notes":""
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P003",
+        "Target":"S024",
+        "Citation_Method":"narrative citation, direct quote with quotation marks",
+        "Weight_NumOfCite":"",
+        "Notes":"These proceedings were not widely circulated,  but each member of the congress received a copy. Galloway was a close ally of Benjamin Franklin and may have accessed the text through him."
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P002",
+        "Target":"S012",
+        "Citation_Method":"direct quote, italics",
+        "Weight_NumOfCite":"3",
+        "Notes":""
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P002",
+        "Target":"S002",
+        "Citation_Method":"footnote",
+        "Weight_NumOfCite":"1",
+        "Notes":"Paine directs readers who would like to fully understand the importance of a state's equal representation to Burgh's work "
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P005",
+        "Target":"P006",
+        "Citation_Method":"italics, narrative citation, direct quote with quotation marks",
+        "Weight_NumOfCite":"28",
+        "Notes":"\"Fugitive Thoughts\" is in response to \"Freeman\""
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P005",
+        "Target":"S046",
+        "Citation_Method":"footnote (asterisk, double dagger)",
+        "Weight_NumOfCite":"2",
+        "Notes":""
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P005",
+        "Target":"S047",
+        "Citation_Method":"direct quote with quotation marks",
+        "Weight_NumOfCite":"1",
+        "Notes":"No specfifc text cited"
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P005",
+        "Target":"S021",
+        "Citation_Method":"italics, narrative citation",
+        "Weight_NumOfCite":"8",
+        "Notes":""
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P005",
+        "Target":"S048",
+        "Citation_Method":"italics, narrative citation",
+        "Weight_NumOfCite":"2",
+        "Notes":""
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P005",
+        "Target":"S049",
+        "Citation_Method":"italics, narrative citation",
+        "Weight_NumOfCite":"3",
+        "Notes":""
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P005",
+        "Target":"S050",
+        "Citation_Method":"italics, narrative citation",
+        "Weight_NumOfCite":"1",
+        "Notes":""
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P005",
+        "Target":"S051",
+        "Citation_Method":"italics, narrative citation",
+        "Weight_NumOfCite":"5",
+        "Notes":""
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P005",
+        "Target":"S052",
+        "Citation_Method":"direct quote, narrative citation",
+        "Weight_NumOfCite":"1",
+        "Notes":""
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P005",
+        "Target":"S053",
+        "Citation_Method":"italics, narrative citation",
+        "Weight_NumOfCite":"1",
+        "Notes":""
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P005",
+        "Target":"S054",
+        "Citation_Method":"narrative citation",
+        "Weight_NumOfCite":"4",
+        "Notes":"Incomplete citation (\"the 12th Charles the Second\" and the Soccage-Act)"
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P005",
+        "Target":"S055",
+        "Citation_Method":"italics, narrative citation",
+        "Weight_NumOfCite":"2",
+        "Notes":""
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P005",
+        "Target":"S056",
+        "Citation_Method":"italics, narrative citation",
+        "Weight_NumOfCite":"1",
+        "Notes":""
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P005",
+        "Target":"S057",
+        "Citation_Method":"narrative citation",
+        "Weight_NumOfCite":"1",
+        "Notes":""
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P005",
+        "Target":"S058",
+        "Citation_Method":"direct quote with quotation marks, narrative citation",
+        "Weight_NumOfCite":"1",
+        "Notes":""
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P005",
+        "Target":"S059",
+        "Citation_Method":"nested reference, narrative citation, page number",
+        "Weight_NumOfCite":"1",
+        "Notes":""
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P005",
+        "Target":"S060",
+        "Citation_Method":"nested reference, narrative citation",
+        "Weight_NumOfCite":"1",
+        "Notes":""
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P005",
+        "Target":"S061",
+        "Citation_Method":"nested reference, narrative citation",
+        "Weight_NumOfCite":"2",
+        "Notes":""
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P005",
+        "Target":"S062",
+        "Citation_Method":"nested reference, narrative citation",
+        "Weight_NumOfCite":"4",
+        "Notes":"There are several citations to British statutes listed, but they do not make sense in context so the citations may be incorrect"
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P005",
+        "Target":"S063",
+        "Citation_Method":"nested reference, direct quote with quotation marks, narrative citation",
+        "Weight_NumOfCite":"4",
+        "Notes":"After first mention, referred to as \"the 14th Char. II.\""
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P005",
+        "Target":"S064",
+        "Citation_Method":"nested reference, direct quote with quotation marks, narrative citation",
+        "Weight_NumOfCite":"1",
+        "Notes":""
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P005",
+        "Target":"S028",
+        "Citation_Method":"nested reference, narrative citation",
+        "Weight_NumOfCite":"1",
+        "Notes":""
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P005",
+        "Target":"S065",
+        "Citation_Method":"footnote (asterisk)",
+        "Weight_NumOfCite":"1",
+        "Notes":"The author directs readers to see this work using the latin vide at the beginning of the footnote"
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P001",
+        "Target":"S066",
+        "Citation_Method":"epigraph, italics",
+        "Weight_NumOfCite":"1",
+        "Notes":"The author attribute a common latin maxim to Horace, but no text can be found linking the quotation to Horace"
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P001",
+        "Target":"P002",
+        "Citation_Method":"narrative citation, direct quote with quotation marks, dialogic response",
+        "Weight_NumOfCite":"51",
+        "Notes":"The pamphlet is written in response to Thomas Paine's Common Sense and approaches his rebuttle by responding to specific quotations from the critiqued work"
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P001",
+        "Target":"S001",
+        "Citation_Method":"direct quote with quotation marks, narrative citation",
+        "Weight_NumOfCite":"4",
+        "Notes":""
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P001",
+        "Target":"S002",
+        "Citation_Method":"narrative citation",
+        "Weight_NumOfCite":"1",
+        "Notes":"Referenced to comment Paine's use of the work "
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P001",
+        "Target":"S003",
+        "Citation_Method":"narrative citation",
+        "Weight_NumOfCite":"5",
+        "Notes":"Including one direct quote misatributed to Montesquieu"
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P001",
+        "Target":"S007",
+        "Citation_Method":"narrative citation",
+        "Weight_NumOfCite":"2",
+        "Notes":""
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P001",
+        "Target":"S004",
+        "Citation_Method":"direct quote with quotation marks, narrative citation",
+        "Weight_NumOfCite":"2",
+        "Notes":"The name of the work was not included in the narrative citation"
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P001",
+        "Target":"S067",
+        "Citation_Method":"direct quote with quotation marks, narrative citation",
+        "Weight_NumOfCite":"1",
+        "Notes":"The name of the work was not included in the narrative citation"
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P001",
+        "Target":"S068",
+        "Citation_Method":"direct quote with quotation marks",
+        "Weight_NumOfCite":"1",
+        "Notes":""
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P001",
+        "Target":"S006",
+        "Citation_Method":"direct quote with quotation marks, narrative citation",
+        "Weight_NumOfCite":"1",
+        "Notes":""
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P001",
+        "Target":"S008",
+        "Citation_Method":"direct quote, narrative citation",
+        "Weight_NumOfCite":"1",
+        "Notes":""
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P002",
+        "Target":"S011",
+        "Citation_Method":"direct quote with quotation marks, narrative citation",
+        "Weight_NumOfCite":"1",
+        "Notes":""
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P007",
+        "Target":"S052",
+        "Citation_Method":"direct quote with quotation marks, narrative citation, footnote (asterik), footnote (parallel lines), footnote (dagger), footnote (section mark), footnote (pilcrow), page number, ibid",
+        "Weight_NumOfCite":"11",
+        "Notes":"Several citations were citing material that appeared in a discursive footnote"
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P007",
+        "Target":"S017",
+        "Citation_Method":"direct quote with quotation marks, footnote (dagger), footnote (asterik), page number",
+        "Weight_NumOfCite":"2",
+        "Notes":"The author's name was provided but not the name of the work"
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P007",
+        "Target":"S069",
+        "Citation_Method":"direct quote with quotation marks, footnote (asterik), ",
+        "Weight_NumOfCite":"1",
+        "Notes":"Citation included a shortened title and the exact letters he was citing"
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P007",
+        "Target":"S070",
+        "Citation_Method":"footnote (section mark), page number, volume number",
+        "Weight_NumOfCite":"2",
+        "Notes":""
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P007",
+        "Target":"S071",
+        "Citation_Method":"footnote (dagger), footnote (pilcrow), page number",
+        "Weight_NumOfCite":"2",
+        "Notes":""
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P007",
+        "Target":"S059",
+        "Citation_Method":"direct quote with quotation marks, footnote (dagger, double dagger, asterik, pilcrow), page number, volume number",
+        "Weight_NumOfCite":"4",
+        "Notes":""
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P007",
+        "Target":"S001",
+        "Citation_Method":"direct quote with quotation marks, narrative citation, footnote (section mark), page number, volume number, ",
+        "Weight_NumOfCite":"2",
+        "Notes":""
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P007",
+        "Target":"S072",
+        "Citation_Method":"narrative citation",
+        "Weight_NumOfCite":"1",
+        "Notes":""
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P007",
+        "Target":"S073",
+        "Citation_Method":"narrative citation",
+        "Weight_NumOfCite":"1",
+        "Notes":""
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P007",
+        "Target":"S052",
+        "Citation_Method":"direct quote with quotation marks, footnote (parallel lines, section mark, dagger, pilcrow), narrative citation, page number, volume number, Ibid., ",
+        "Weight_NumOfCite":"10",
+        "Notes":"Citation appears at the end of a discursive footnote in several instances and once is includes as a footnote within a footnote"
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P007",
+        "Target":"S074",
+        "Citation_Method":"footnote (asterik), page number",
+        "Weight_NumOfCite":"1",
+        "Notes":""
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P007",
+        "Target":"S075",
+        "Citation_Method":"footnote (dagger) page number, volume number",
+        "Weight_NumOfCite":"1",
+        "Notes":""
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P007",
+        "Target":"S076",
+        "Citation_Method":"direct quote with quotation marks, narrative citation",
+        "Weight_NumOfCite":"1",
+        "Notes":"The narrative citation only lists the authors name, which is interesting because he provided thorough citations when citing statutes and legal treatises"
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P007",
+        "Target":"S077",
+        "Citation_Method":"direct quote with quotation marks, footnote (asterik, dagger), page number",
+        "Weight_NumOfCite":"2",
+        "Notes":""
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P007",
+        "Target":"S078",
+        "Citation_Method":"direct quote with quotation marks, footnote (asterik, double dagger), page number, volume number",
+        "Weight_NumOfCite":"2",
+        "Notes":"This entry only includes references that are not specifically to Calvin's case"
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P007",
+        "Target":"S079",
+        "Citation_Method":"direct quote with quotation marks, narrative citation, footnote (asterisk, pilcrow, parallel lines)",
+        "Weight_NumOfCite":"8",
+        "Notes":"Once cited within a discursive footnote"
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P007",
+        "Target":"S080",
+        "Citation_Method":"direct quote with quotation marks",
+        "Weight_NumOfCite":"1",
+        "Notes":"The citation would leave readers to believe that the quotation came from a report on Calvin's case, but it seems to be from John Adams's comments on the case"
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P007",
+        "Target":"S081",
+        "Citation_Method":"narrative citation",
+        "Weight_NumOfCite":"1",
+        "Notes":""
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P007",
+        "Target":"S082",
+        "Citation_Method":"direct quote with quotations, narratvie citation, footnote (dagger, section mark), page number",
+        "Weight_NumOfCite":"3",
+        "Notes":""
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P007",
+        "Target":"S083",
+        "Citation_Method":"direct quote with quotaton marks, footnote (dagger), narrative citation",
+        "Weight_NumOfCite":"1",
+        "Notes":""
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P007",
+        "Target":"S084",
+        "Citation_Method":"narrative citation, nested reference",
+        "Weight_NumOfCite":"1",
+        "Notes":"Appears in a discursive footnote"
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P009",
+        "Target":"S040",
+        "Citation_Method":"narrative citation",
+        "Weight_NumOfCite":"1",
+        "Notes":""
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P009",
+        "Target":"S037",
+        "Citation_Method":"narrative citation",
+        "Weight_NumOfCite":"1",
+        "Notes":""
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P009",
+        "Target":"S016",
+        "Citation_Method":"narrative citation, direct quote with quotation marks",
+        "Weight_NumOfCite":"2",
+        "Notes":"Author claimes that Locke is \"quoted partially by those who have read him, to mislead thousands who never read him."
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P009",
+        "Target":"S012",
+        "Citation_Method":"epigraph, direct quote, direct quote with quotation marks, narrative citation, chapter and verse, footnote (asterik)",
+        "Weight_NumOfCite":"5",
+        "Notes":"Most invocations of Biblical scripture did not inlcude a citation and relied on audience knowledge "
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P009",
+        "Target":"S086",
+        "Citation_Method":"quote with quotation marks, vague narrative citation",
+        "Weight_NumOfCite":"1",
+        "Notes":""
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P009",
+        "Target":"S087",
+        "Citation_Method":"narrative citation",
+        "Weight_NumOfCite":"1",
+        "Notes":""
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P009",
+        "Target":"S088",
+        "Citation_Method":"narrative citation",
+        "Weight_NumOfCite":"1",
+        "Notes":""
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P009",
+        "Target":"S085",
+        "Citation_Method":"narrative citation",
+        "Weight_NumOfCite":"2",
+        "Notes":""
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P009",
+        "Target":"S052",
+        "Citation_Method":"narrative citation, quotation with quotation marks",
+        "Weight_NumOfCite":"1",
+        "Notes":"Quotation attributed to \"Dr. Blackstone\" but does not seem to be an accurate quotation "
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P009",
+        "Target":"S089",
+        "Citation_Method":"narrative citation",
+        "Weight_NumOfCite":"1",
+        "Notes":""
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P009",
+        "Target":"S090",
+        "Citation_Method":"direct quote with quotation marks, narrative citation, footnote, narrative citation (postscript), excert included in postscript",
+        "Weight_NumOfCite":"1",
+        "Notes":""
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P009",
+        "Target":"P010",
+        "Citation_Method":"footnote (asterisk)",
+        "Weight_NumOfCite":"1",
+        "Notes":"Author directs readers to this text for more discussion on his point"
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P009",
+        "Target":"P011",
+        "Citation_Method":"footnote",
+        "Weight_NumOfCite":"1",
+        "Notes":"Author directs readers to this pamphlet for a \"defense of the general policy of the act\""
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P009",
+        "Target":"S091",
+        "Citation_Method":"narrative citation",
+        "Weight_NumOfCite":"1",
+        "Notes":""
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P009",
+        "Target":"S092",
+        "Citation_Method":"footnote (dagger)",
+        "Weight_NumOfCite":"1",
+        "Notes":"Footnote within a discursive footnote"
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P009",
+        "Target":"S093",
+        "Citation_Method":"footnote (asterisk)",
+        "Weight_NumOfCite":"1",
+        "Notes":""
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P009",
+        "Target":"S094",
+        "Citation_Method":"narrative citation",
+        "Weight_NumOfCite":"2",
+        "Notes":""
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P009",
+        "Target":"S102",
+        "Citation_Method":"direct quote",
+        "Weight_NumOfCite":"1",
+        "Notes":"Quoted in latin without citation"
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P009",
+        "Target":"S097",
+        "Citation_Method":"footnote (asterisk), ut supra, publication date",
+        "Weight_NumOfCite":"2",
+        "Notes":""
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P009",
+        "Target":"S037",
+        "Citation_Method":"narrative citation",
+        "Weight_NumOfCite":"1",
+        "Notes":""
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P009",
+        "Target":"S098",
+        "Citation_Method":"all caps, direct quote, footnote (asterik)",
+        "Weight_NumOfCite":"1",
+        "Notes":""
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P009",
+        "Target":"S099",
+        "Citation_Method":"narrative citation",
+        "Weight_NumOfCite":"1",
+        "Notes":"Unclear what is actually beign referenced, but it is likely that the Book of Homilies"
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P009",
+        "Target":"S100",
+        "Citation_Method":"direct quote with quotation marks, narrative citation",
+        "Weight_NumOfCite":"1",
+        "Notes":""
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P009",
+        "Target":"S101",
+        "Citation_Method":"direct quote with quotation marks, narrative citation",
+        "Weight_NumOfCite":"1",
+        "Notes":""
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P009",
+        "Target":"S095",
+        "Citation_Method":"extract included in postscript",
+        "Weight_NumOfCite":"1",
+        "Notes":""
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P009",
+        "Target":"S096",
+        "Citation_Method":"extract included in postscript",
+        "Weight_NumOfCite":"1",
+        "Notes":""
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P008",
+        "Target":"S085",
+        "Citation_Method":"narrative citation",
+        "Weight_NumOfCite":"2",
+        "Notes":""
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P008",
+        "Target":"S040",
+        "Citation_Method":"narrative citation",
+        "Weight_NumOfCite":"1",
+        "Notes":""
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P008",
+        "Target":"S037",
+        "Citation_Method":"narrative citation",
+        "Weight_NumOfCite":"1",
+        "Notes":""
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P008",
+        "Target":"S016",
+        "Citation_Method":"direct quote with quotation marks, narrative citation",
+        "Weight_NumOfCite":"2",
+        "Notes":""
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P012",
+        "Target":"S103",
+        "Citation_Method":"narrative citation, paraphrase",
+        "Weight_NumOfCite":"1",
+        "Notes":"The author quotes Archimedes, who was quoted in The Library of History"
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P012",
+        "Target":"P009",
+        "Citation_Method":"direct quote with quotation marks, narrative citation, paraphrase, page numbers, ",
+        "Weight_NumOfCite":"14",
+        "Notes":"The pamphlet is written in response to A Friendly Address to All Reasonable Americans. The author pulls out key points in thre pamphlet to respond to through quotation, paraphrase, and at one point, directing the audience to read specific pages and then return to the responding pamphlet."
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P012",
+        "Target":"S104",
+        "Citation_Method":"block quote, direct quote",
+        "Weight_NumOfCite":"1",
+        "Notes":""
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P012",
+        "Target":"S016",
+        "Citation_Method":"direct quote with quotation marks, nested reference",
+        "Weight_NumOfCite":"1",
+        "Notes":"The author comments on the use of Locke in A Friendly Address."
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P012",
+        "Target":"S105",
+        "Citation_Method":"narrative citation",
+        "Weight_NumOfCite":"1",
+        "Notes":""
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P012",
+        "Target":"P013",
+        "Citation_Method":"narrative citation",
+        "Weight_NumOfCite":"1",
+        "Notes":""
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P012",
+        "Target":"S106",
+        "Citation_Method":"block quote, modified quotation",
+        "Weight_NumOfCite":"1",
+        "Notes":"This is a fringe case for inclusion as it straddles the line between allusion and this project's criteria for inclusion as a textual reference. It is almost a direct quote of a contemporary satire poem, but a few words are changed to match the context of the pamphlet. "
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P012",
+        "Target":"P014",
+        "Citation_Method":"narrative citation",
+        "Weight_NumOfCite":"1",
+        "Notes":"Author directs readers to this pamphlet for a \"unquestionable evidence\" to his point"
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P012",
+        "Target":"S107",
+        "Citation_Method":"block quote, direct quote",
+        "Weight_NumOfCite":"1",
+        "Notes":""
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P012",
+        "Target":"S012",
+        "Citation_Method":"narrative citation",
+        "Weight_NumOfCite":"1",
+        "Notes":""
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P012",
+        "Target":"S090",
+        "Citation_Method":"narrative citation",
+        "Weight_NumOfCite":"1",
+        "Notes":""
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P012",
+        "Target":"S108",
+        "Citation_Method":"direct quote, vague narrative citation",
+        "Weight_NumOfCite":"1",
+        "Notes":""
+    },
+    {
+        "\u00ef\u00bb\u00bfSource":"P002",
+        "Target":"S109",
+        "Citation_Method":"direct quote, narrative citation",
+        "Weight_NumOfCite":"1",
+        "Notes":""
+    }
+]
