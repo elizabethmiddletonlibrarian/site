@@ -88,8 +88,8 @@ Node shape: <strong>Square</strong> = Pamphlet, <strong>Circle</strong> = Source
 <script>
 async function loadNetwork() {
     // 1. Fetch the data - using site prefix for GitHub Pages subdirectory
-    const nodesUrl = "{{ site.baseurl }}/assets/citation-network/nodes.json";
-    const edgesUrl = "{{ site.baseurl }}/assets/citation-network/edges.json";
+    const nodesUrl = "https://github.com/elizabethmiddletonlibrarian/site/assets/citation-network/nodes.json";
+    const edgesUrl = "https://github.com/elizabethmiddletonlibrarian/site/assets/citation-network/edges.json";
 
     console.log("Loading nodes from:", nodesUrl);
     console.log("Loading edges from:", edgesUrl);
