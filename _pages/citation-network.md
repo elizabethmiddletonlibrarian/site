@@ -122,8 +122,8 @@ Node shape: <strong>Square</strong> = Pamphlet, <strong>Circle</strong> = Source
 <script>
 async function loadNetwork() {
     // 1. Fetch the data
-    const rawNodes = await fetch("nodes.json").then(res => res.json());
-    const rawEdges = await fetch("edges.json").then(res => res.json());
+    const rawNodes = await fetch("{{ '/assets/citation-network/nodes.json' | relative_url }}").then(res => res.json());
+    const rawEdges = await fetch("{{ '/assets/citation-network/edges.json' | relative_url }}").then(res => res.json());
 
     // 2. CLEAN THE DATA (Removes BOM from both nodes and edges)
     const nodesData = rawNodes.map(node => {
@@ -366,7 +366,7 @@ async function loadNetwork() {
         }
     });
 
-    // 8. TOOLTIP FUNCTIONALITY
+    // 9. TOOLTIP FUNCTIONALITY
     const tooltip = document.getElementById("tooltip");
 
     cy.on("mouseover", "node", function(event) {
