@@ -5,32 +5,10 @@ author_profile: false
 layout: single
 ---
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Revolutionary Pamphlet Citation Network</title>
-
-<script src="https://unpkg.com/cytoscape@3.26.0/dist/cytoscape.min.js"></script>
-
 <style>
 
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 20px;
-    background-color: #fffadd;
-}
-
-h1 {
-    text-align: center;
-    color: #0a0a0a;
-}
-    h2 {
-    text-align: center;
-    color: #0e0e0e;
 }
 
 #cy {
@@ -90,44 +68,32 @@ h1 {
 
 </style>
 
-</head>
-
-
-<body>
-
-
-<h1>Revolutionary Pamphlets of the 18th Century British Atlantic</h1>
-    <h2> Citation Network Visualization</h2>
-
+<h2>Citation Network Visualization</h2>
 
 <div class="legend" id="typeLegend">
-
 <div class="legend-item">
 Node shape: <strong>Square</strong> = Pamphlet, <strong>Circle</strong> = Source  cited/referenced in pamphlet
 </div>
-
 </div>
 
 <div class="legend" id="categoryLegend">
 <strong style="display:block; margin-bottom:8px;">Source Theme</strong>
 </div>
 
-
 <div id="cy"></div>
 
 <div id="tooltip"></div>
 
-
-
+<script src="https://unpkg.com/cytoscape@3.26.0/dist/cytoscape.min.js"></script>
 <script>
 async function loadNetwork() {
     // 1. Fetch the data - using site prefix for GitHub Pages subdirectory
     const nodesUrl = "{{ site.baseurl }}/assets/citation-network/nodes.json";
     const edgesUrl = "{{ site.baseurl }}/assets/citation-network/edges.json";
-    
+
     console.log("Loading nodes from:", nodesUrl);
     console.log("Loading edges from:", edgesUrl);
-    
+
     const rawNodes = await fetch(nodesUrl).then(res => res.json());
     const rawEdges = await fetch(edgesUrl).then(res => res.json());
 
@@ -427,9 +393,3 @@ async function loadNetwork() {
 
 loadNetwork();
 </script>
-
-
-
-</body>
-
-</html>
