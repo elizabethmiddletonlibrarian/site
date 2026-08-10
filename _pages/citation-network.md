@@ -1,6 +1,7 @@
 ---
 title: Citation Network
 permalink: /citation-network/
+layout: null
 ---
 
 <html lang="en">
