@@ -181,6 +181,7 @@ layout: null
 
                 "Treaties, Capitulations, and Diplomatic Instruments":
                     "Legal & Governmental",
+                "Legal Treatise": "Legal & Governmental",
 
                 "Religious Text": "Religious & Spiritual",
 
