@@ -3,7 +3,6 @@ title: Citation Network
 permalink: /citation-network/
 ---
 
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
