@@ -92,6 +92,14 @@ layout: null
 
 <body>
 
+<a href="https://elizabethmiddletonlibrarian.github.io/site/pamphlets/"
+   style="position:fixed; top:20px; left:20px; z-index:10000;
+          background-color:#2c3454; color:#ffffff;
+          padding:10px 16px; border-radius:6px;
+          font-family:Arial, sans-serif; font-weight:600; font-size:14px;
+          text-decoration:none; box-shadow:0 2px 6px rgba(0,0,0,0.2);">
+  ← Return to Landing Page
+</a> 
     <h1>Revolutionary Pamphlets of the 18th Century British Atlantic</h1>
 
     <h2>Citation Network Visualization</h2>
